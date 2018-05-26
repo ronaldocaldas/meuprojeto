@@ -5,7 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './funcionario-card.component.html',
   styleUrls: ['./funcionario-card.component.css']
 })
-export class FuncionarioCardComponent implements OnInit {
+export class FuncionarioCardComponent{
 
  @Input('obj') funcionario: any;
 
