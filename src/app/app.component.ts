@@ -7,10 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   nome = 'Ronaldo';
+  ultimoId = 0;
   adicionado = false;
+  funcionarios = [];
 
   adicionar(){
-  this.nome = `Adicionado ${this.nome}`;
   this.adicionado = true;
+
+  this.funcionarios.push({
+    id: ++this.ultimoId,
+    nome: this.nome
+  });
   }
 }
