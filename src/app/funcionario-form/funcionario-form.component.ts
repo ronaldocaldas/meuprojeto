@@ -5,13 +5,13 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   templateUrl: './funcionario-form.component.html',
   styleUrls: ['./funcionario-form.component.css']
 })
-export class FuncionarioFormComponent{
+export class FuncionarioFormComponent {
   nome = 'Ronaldo';
   ultimoId = 0;
   adicionado = false;
-  @Output() funcionarioAdicionado = new EventEmitter();S
+  @Output() funcionarioAdicionado = new EventEmitter();
 
-  adicionar(){
+  adicionar() {
     this.adicionado = true;
 
     const funcionario = {
