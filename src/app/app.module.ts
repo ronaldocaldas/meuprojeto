@@ -11,7 +11,7 @@ import { CampoColoridoDirective } from './campo-colorido.directive';
 
 @NgModule({
   declarations: [
-    AppComponent, 
+    AppComponent,
     HelloComponent, BemVindoComponent, FuncionarioCardComponent, FuncionarioFormComponent, CampoColoridoDirective
   ],
   imports: [
