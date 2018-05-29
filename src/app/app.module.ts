@@ -1,3 +1,4 @@
+import { FuncionarioService } from './funcionario.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
@@ -18,7 +19,7 @@ import { CampoColoridoDirective } from './campo-colorido.directive';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [FuncionarioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
