@@ -8,9 +8,10 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class FuncionarioFormComponent {
 
+
   constructor(private funcionarioService: FuncionarioService) {}
 
-  adicionar(nome: string) {
-    this.funcionarioService.adicionar(nome);
-  }
+adicionar(nome: string) {
+  this.funcionarioService.adicionar(nome);
+}
 }
