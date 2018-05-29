@@ -1,14 +1,15 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
+const newLocal = 'hello';
 @Component({
-    selector: "hello", 
-    template: `
+  selector: newLocal,
+  template: `
         <h2>
             Hello {{nome}}
         </h2>
     `
 })
-export class HelloComponent{
-    nome = "Ronaldo";
+export class HelloComponent {
+  nome = 'Ronaldo';
 
 }

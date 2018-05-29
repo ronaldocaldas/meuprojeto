@@ -1,7 +1,7 @@
 <div class="form-group">
     <label>Nome</label>
     <input type="text" class="form-control"
-        (focus)="adicionado = false" [appCampoColorido]="'yellow'" #campo="campoColorido" #nome>
+        (focus)="adicionado = false"  #nome>
  </div>
  <button type="button" class="btn btn-primary" (click)="adicionar(nome.value); nome.value = ''" >Adicionar</button>
 
